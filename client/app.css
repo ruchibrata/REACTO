@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background: dimGray;
+}
+
+.typingContainer {
+  flex: 2;
+  background: gray;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.drawingContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
